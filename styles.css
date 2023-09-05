@@ -12,6 +12,8 @@ a {
   width: 100%;
   border: none;
   border-radius: 25px;
+  /* position: absolute; */
+/* top: 100%; */
 }
 
 .visite-btn a {
