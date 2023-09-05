@@ -1,0 +1,19 @@
+a {
+  text-decoration: none;
+}
+.visite-btn {
+  padding: 15px 15px;
+  background: linear-gradient(
+    90deg,
+    rgba(25, 15, 198, 1) 0%,
+    rgba(18, 18, 198, 1) 35%,
+    rgba(9, 129, 153, 1) 100%
+  );
+  width: 100%;
+  border: none;
+  border-radius: 25px;
+}
+
+.visite-btn a {
+  color: #fff;
+}
