@@ -13,34 +13,40 @@ a {
   border: none;
   border-radius: 25px;
   margin: auto;
-  
+  transition: 0.7s ease-in-out;
+}
+.visite-btn:hover {
+  direction: rtl; 
+  background: linear-gradient(
+    90deg,
+    rgba(9, 129, 153, 1) 0%,
+    rgba(18, 18, 198, 1) 65%,
+   rgba(25, 15, 198, 1) 100% 
+  );
 }
 
 .visite-btn a {
   color: #fff;
 }
 
-.nav-link  {
+.nav-link {
   position: relative;
   overflow: hidden;
   transition: color 0.3s ease;
   padding: 10px 15px;
 
- 
   border: none;
-  border-radius: 25px!important;
+  border-radius: 25px !important;
   margin: auto;
-  
 }
 .nav-link:active,
 .nav-link.active {
-    background: linear-gradient(
-        90deg,
-        rgba(25, 15, 198, 1) 0%,
-        rgba(18, 18, 198, 1) 35%,
-        rgba(9, 129, 153, 1) 100%
-    ) !important;
-   
+  background: linear-gradient(
+    90deg,
+    rgba(25, 15, 198, 1) 0%,
+    rgba(18, 18, 198, 1) 35%,
+    rgba(9, 129, 153, 1) 100%
+  ) !important;
 }
 
 .nav-link::before {
@@ -68,13 +74,10 @@ a {
   left: 0;
 }
 .site-thumb {
- 
   height: 200px;
- ;
- 
 }
 
-.site-thumb  img {
+.site-thumb img {
   height: 100%;
   width: 100%;
   object-fit: cover;
